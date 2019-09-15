@@ -1,0 +1,120 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="989145633" file="F:\DecomposerOpt\DecomposerOpt.prj" location="F:\DecomposerOpt" name="DecomposerOpt" preferred-package-location="G:\DecomposerOpt\DecomposerOpt\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>DecomposerOpt</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Lokhmachev Nikita, Korlyakova Ekaterina</param.authnamewatermark>
+    <param.email>lokhmachevnikita@gmail.com, korliakova.ekaterina@yandex.ru</param.email>
+    <param.company>BMSTU</param.company>
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\N1ck0\Desktop\pl4130904-high_speed_pcb_design_layout_arm9_arm7_stm32f103_stm8s_avr_mega8_tiny_c8051f.jpg</param.screenshot>
+    <param.guid />
+    <param.installpath.string>\BMSTU\DecomposerOpt\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\DecomposerOpt\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\DecomposerOpt\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\DecomposerOpt\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\DecomposerOpt\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.summary />
+      <param.description />
+      <param.guid />
+      <param.installpath.string />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main />
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\AllToOpt.m</file>
+      <file>${PROJECT_ROOT}\btnhelpclick.m</file>
+      <file>${PROJECT_ROOT}\btnmainhelpclick.m</file>
+      <file>${PROJECT_ROOT}\btnokclick.m</file>
+      <file>${PROJECT_ROOT}\btnopenclick.m</file>
+      <file>${PROJECT_ROOT}\btnopendecclick.m</file>
+      <file>${PROJECT_ROOT}\btnopenmatclick.m</file>
+      <file>${PROJECT_ROOT}\btnoptclick.m</file>
+      <file>${PROJECT_ROOT}\btnshowclick.m</file>
+      <file>${PROJECT_ROOT}\Decomopt2.m</file>
+      <file>${PROJECT_ROOT}\Inve.m</file>
+      <file>${PROJECT_ROOT}\Itable.m</file>
+      <file>${PROJECT_ROOT}\MFC42D.DLL</file>
+      <file>${PROJECT_ROOT}\MFCO42D.DLL</file>
+      <file>${PROJECT_ROOT}\MSVCP60D.DLL</file>
+      <file>${PROJECT_ROOT}\Oposled.m</file>
+      <file>${PROJECT_ROOT}\optim.m</file>
+      <file>${PROJECT_ROOT}\Perevod.m</file>
+      <file>${PROJECT_ROOT}\PerevodInv.m</file>
+      <file>${PROJECT_ROOT}\PerevodInv2.m</file>
+      <file>${PROJECT_ROOT}\ReOpt.m</file>
+      <file>${PROJECT_ROOT}\XT1940Libd.dll</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\DecomposerOpt\for_testing" name="DecomposerOpt.exe" optional="false">F:\DecomposerOpt\DecomposerOpt\for_testing\DecomposerOpt.exe</file>
+      <file location="${PROJECT_ROOT}\DecomposerOpt\for_testing" name="splash.png" optional="false">F:\DecomposerOpt\DecomposerOpt\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\DecomposerOpt\for_testing" name="readme.txt" optional="true">F:\DecomposerOpt\DecomposerOpt\for_testing\readme.txt</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>true</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>5.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>

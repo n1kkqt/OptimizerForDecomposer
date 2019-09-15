@@ -1,0 +1,156 @@
+<deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
+  <configuration build-checksum="3055205971" file="F:\DecomposerOpt\DecomposerOptimizator.prj" location="F:\DecomposerOpt" name="DecomposerOptimizator" preferred-package-location="F:\DecomposerOpt\DecomposerOptimizator\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="MATLAB Compiler for Standalone Applications">
+    <param.appname>DecomposerOptimizator</param.appname>
+    <param.icon />
+    <param.icons />
+    <param.version>1.0</param.version>
+    <param.authnamewatermark>Корлякова Е. Ю., Лохмачёв Н. В.</param.authnamewatermark>
+    <param.email />
+    <param.company />
+    <param.summary />
+    <param.description>lokhmachevnikita@gmail.com, korliakova.ekaterina@yandex.ru</param.description>
+    <param.screenshot />
+    <param.guid />
+    <param.installpath.string>\DecomposerOptimizator\</param.installpath.string>
+    <param.installpath.combo>option.installpath.programfiles</param.installpath.combo>
+    <param.logo />
+    <param.install.notes />
+    <param.intermediate>${PROJECT_ROOT}\DecomposerOptimizator\for_testing</param.intermediate>
+    <param.output>${PROJECT_ROOT}\DecomposerOptimizator\for_redistribution</param.output>
+    <param.user.defined.mcr.options />
+    <param.embed.ctf>true</param.embed.ctf>
+    <param.server.ctf>${PROJECT_ROOT}\DecomposerOptimizator\for_testing\.ctf</param.server.ctf>
+    <param.server.readme>${PROJECT_ROOT}\DecomposerOptimizator\for_testing\readme.txt</param.server.readme>
+    <param.target.type>subtarget.standalone</param.target.type>
+    <param.support.packages />
+    <param.web.mcr>false</param.web.mcr>
+    <param.package.mcr>true</param.package.mcr>
+    <param.no.mcr>false</param.no.mcr>
+    <param.web.mcr.name>MyAppInstaller_web</param.web.mcr.name>
+    <param.package.mcr.name>MyAppInstaller_mcr</param.package.mcr.name>
+    <param.no.mcr.name>MyAppInstaller_app</param.no.mcr.name>
+    <param.windows.command.prompt>true</param.windows.command.prompt>
+    <param.create.log>false</param.create.log>
+    <param.log.file />
+    <unset>
+      <param.icon />
+      <param.icons />
+      <param.version />
+      <param.email />
+      <param.company />
+      <param.summary />
+      <param.screenshot />
+      <param.guid />
+      <param.installpath.string />
+      <param.installpath.combo />
+      <param.logo />
+      <param.install.notes />
+      <param.intermediate />
+      <param.output />
+      <param.user.defined.mcr.options />
+      <param.embed.ctf />
+      <param.server.ctf />
+      <param.server.readme />
+      <param.target.type />
+      <param.support.packages />
+      <param.no.mcr />
+      <param.web.mcr.name />
+      <param.package.mcr.name />
+      <param.no.mcr.name />
+      <param.windows.command.prompt />
+      <param.create.log />
+      <param.log.file />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\Decomopt2.m</file>
+    </fileset.main>
+    <fileset.resources>
+      <file>${PROJECT_ROOT}\abs.txt</file>
+      <file>${PROJECT_ROOT}\advapi32.dll</file>
+      <file>${PROJECT_ROOT}\AllToOpt.m</file>
+      <file>${PROJECT_ROOT}\borlndmm.dll</file>
+      <file>${PROJECT_ROOT}\btnhelpclick.m</file>
+      <file>${PROJECT_ROOT}\btnmainhelpclick.m</file>
+      <file>${PROJECT_ROOT}\btnokclick.m</file>
+      <file>${PROJECT_ROOT}\btnopenclick.m</file>
+      <file>${PROJECT_ROOT}\btnopendecclick.m</file>
+      <file>${PROJECT_ROOT}\btnopenmatclick.m</file>
+      <file>${PROJECT_ROOT}\btnoptclick.m</file>
+      <file>${PROJECT_ROOT}\btnshowclick.m</file>
+      <file>${PROJECT_ROOT}\cc3260mt.dll</file>
+      <file>${PROJECT_ROOT}\comctl32.dll</file>
+      <file>${PROJECT_ROOT}\Decomopt2.m</file>
+      <file>${PROJECT_ROOT}\Decomp.exe</file>
+      <file>${PROJECT_ROOT}\gdi32.dll</file>
+      <file>${PROJECT_ROOT}\generating.log</file>
+      <file>${PROJECT_ROOT}\Inve.m</file>
+      <file>${PROJECT_ROOT}\Itable.m</file>
+      <file>${PROJECT_ROOT}\kernel32.dll</file>
+      <file>${PROJECT_ROOT}\MFC42D.DLL</file>
+      <file>${PROJECT_ROOT}\MFCO42D.DLL</file>
+      <file>${PROJECT_ROOT}\MSFLXGRD.OCX</file>
+      <file>${PROJECT_ROOT}\MSVCP60D.DLL</file>
+      <file>${PROJECT_ROOT}\msvcrt.dll</file>
+      <file>${PROJECT_ROOT}\MSVCRTD.DLL</file>
+      <file>${PROJECT_ROOT}\ntdll.dll</file>
+      <file>${PROJECT_ROOT}\ole32.dll</file>
+      <file>${PROJECT_ROOT}\oleaut32.dll</file>
+      <file>${PROJECT_ROOT}\Oposled.m</file>
+      <file>${PROJECT_ROOT}\optim.m</file>
+      <file>${PROJECT_ROOT}\Perevod.m</file>
+      <file>${PROJECT_ROOT}\PerevodInv.m</file>
+      <file>${PROJECT_ROOT}\PerevodInv2.m</file>
+      <file>${PROJECT_ROOT}\ReOpt.m</file>
+      <file>${PROJECT_ROOT}\rpcrt4.dll</file>
+      <file>${PROJECT_ROOT}\rtl60.bpl</file>
+      <file>${PROJECT_ROOT}\sch_export.dll</file>
+      <file>${PROJECT_ROOT}\sch_export_VCL.dll</file>
+      <file>${PROJECT_ROOT}\Schematic6.sch</file>
+      <file>${PROJECT_ROOT}\secur32.dll</file>
+      <file>${PROJECT_ROOT}\shell32.dll</file>
+      <file>${PROJECT_ROOT}\shlwapi.dll</file>
+      <file>${PROJECT_ROOT}\stlpmt45.dll</file>
+      <file>${PROJECT_ROOT}\TEST.JPG</file>
+      <file>${PROJECT_ROOT}\TEST.sch</file>
+      <file>${PROJECT_ROOT}\TEST11.sch</file>
+      <file>${PROJECT_ROOT}\user32.dll</file>
+      <file>${PROJECT_ROOT}\vcl60.bpl</file>
+      <file>${PROJECT_ROOT}\Wtest.sch</file>
+      <file>${PROJECT_ROOT}\XT1940Lib.dll</file>
+      <file>${PROJECT_ROOT}\XT1940Libd.dll</file>
+    </fileset.resources>
+    <fileset.package />
+    <build-deliverables>
+      <file location="${PROJECT_ROOT}\DecomposerOptimizator\for_testing" name="splash.png" optional="false">F:\DecomposerOpt\DecomposerOptimizator\for_testing\splash.png</file>
+      <file location="${PROJECT_ROOT}\DecomposerOptimizator\for_testing" name="readme.txt" optional="true">F:\DecomposerOpt\DecomposerOptimizator\for_testing\readme.txt</file>
+      <file location="${PROJECT_ROOT}\DecomposerOptimizator\for_testing" name="DecomposerOptimizator.exe" optional="false">F:\DecomposerOpt\DecomposerOptimizator\for_testing\DecomposerOptimizator.exe</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2014a</root>
+      <toolboxes>
+        <toolbox name="matlabcoder" />
+      </toolboxes>
+      <toolbox>
+        <matlabcoder>
+          <enabled>true</enabled>
+        </matlabcoder>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>true</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>5.1</osver>
+      <os32>true</os32>
+      <os64>false</os64>
+      <arch>win32</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
